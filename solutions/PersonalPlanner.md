@@ -71,10 +71,16 @@ Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
 
 ## Screenshots / DemoVideo
 
-<video controls playsinline preload="metadata" width="100%">
-  <source src="/solutions/videos/Personal-Planner.mp4" type="video/mp4">
-  Dein Browser unterstützt das Video-Tag nicht.
-</video>
+<iframe
+  width="100%"
+  height="420"
+  src="[https://www.youtube.com/embed/rMFdvyLX-g](https://youtu.be/k62D1nBSUFs)Y"
+  title="Personal Planner – Power Apps Demo"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
 
 
 
