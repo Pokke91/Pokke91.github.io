@@ -5,7 +5,7 @@ title: Centralized Catalog Item Deployer for Multi-Environment Rollouts
 
 # Centralized Catalog Item Deployer for Multi-Environment Rollouts
 
-As organizations grow and scale their **Microsoft Power Platform** estates, administrators face recurring challenges when deploying solutions (Catalog Items) across many **Dataverse environments**. The standard manual process of exporting and importing solutions is error-prone, time-consuming, and offers limited transparency into version status and failure reasons. :contentReference[oaicite:0]{index=0}
+As organizations grow and scale their **Microsoft Power Platform** estates, administrators face recurring challenges when deploying solutions (Catalog Items) across many **Dataverse environments**. The standard manual process of exporting and importing solutions is error-prone, time-consuming, and offers limited transparency into version status and failure reasons. 
 
 This solution—**Centralized Catalog Item Deployer**—provides a more efficient, consistent and auditable way to deploy Power Platform Catalog Items across multiple environments. 
 
@@ -42,6 +42,18 @@ The **Centralized Catalog Item Deployer** is a combined **Canvas App + Power Aut
 
 The deployer consists of two main parts:
 
+### 🗄️ Dataverse Data Model
+
+The solution is built on top of the standard **Power Platform Catalog** tables, extended with
+additional metadata for deployment tracking and transparency.
+
+<div class="media-card">
+  <img src="images/data-model.png" alt="Dataverse data model">
+  <div class="media-caption">
+    Dataverse data model for catalog item deployments
+  </div>
+</div>
+
 ### 📱 Canvas App
 
 The Canvas App gives administrators a clear interface to:
@@ -52,6 +64,13 @@ The Canvas App gives administrators a clear interface to:
 - multi-select target environments at once  
 - preview current install status on each environment before executing a rollout
 
+<div class="media-card">
+  <img src="images/canvas-app.png" alt="Canvas App overview">
+  <div class="media-caption">
+    Canvas App – central deployment interface
+  </div>
+</div>
+
 ### 🔄 Power Automate Flow
 
 This flow is triggered from the Canvas App and:
@@ -60,6 +79,13 @@ This flow is triggered from the Canvas App and:
 2. parses the list of environment URLs  
 3. calls the **Dataverse Web API action `mspcat_InstallCatalogItemByCID`** for each environment  
 4. returns status results back to the Canvas App for display 
+
+<div class="media-card">
+  <img src="images/flow.png" alt="Power Automate flow">
+  <div class="media-caption">
+    Power Automate flow for multi-environment deployments
+  </div>
+</div>
 
 ---
 
