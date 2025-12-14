@@ -221,3 +221,33 @@
   border-collapse: collapse;
 }
 
+/* =========================
+   Video / Media Card
+   ========================= */
+
+.media-card {
+  max-width: 980px;
+  margin: 2rem auto 2.5rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Inner video elements */
+.media-card iframe,
+.media-card video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Optional caption under video */
+.media-card .media-caption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
