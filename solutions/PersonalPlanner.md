@@ -3,6 +3,7 @@ layout: default
 title: Personal Planner (Power Apps)
 ---
 
+
 # Personal Planner (Power Apps)
 
 Ein persönlicher Planner in **Power Apps**, der die **Mitarbeiter-Planung** einfach und effizient macht.  
