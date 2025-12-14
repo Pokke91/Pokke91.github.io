@@ -72,7 +72,9 @@ Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
 ## Screenshots / DemoVideo
 
 <video controls playsinline preload="metadata" width="100%">
-  <source src="videos/LinkedIn Personal Planner.mp4" type="video/mp4">
+  <source src="/solutions/videos/Personal-Planner.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
+
 
 
