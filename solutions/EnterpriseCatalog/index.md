@@ -48,7 +48,7 @@ The solution is built on top of the standard **Power Platform Catalog** tables, 
 additional metadata for deployment tracking and transparency.
 
 <div class="media-card">
-  <img src="images/data-model.png" alt="Dataverse data model">
+  <img src="images/datenmodell.png" alt="Dataverse data model">
   <div class="media-caption">
     Dataverse data model for catalog item deployments
   </div>
@@ -65,7 +65,7 @@ The Canvas App gives administrators a clear interface to:
 - preview current install status on each environment before executing a rollout
 
 <div class="media-card">
-  <img src="images/canvas-app.png" alt="Canvas App overview">
+  <img src="images/canvasapp.png" alt="Canvas App overview">
   <div class="media-caption">
     Canvas App – central deployment interface
   </div>
