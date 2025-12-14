@@ -222,55 +222,63 @@
 }
 
 /* =========================
-   Video / Media Card
+   Global centered video style
    ========================= */
 
+/* Wrapper für alle Videos */
 .media-card {
-  max-width: 980px;
-  margin: 2rem auto 2.5rem;
-  padding: 1rem;
+  max-width: 1200px;        /* deutlich größer als Text */
+  margin: 3rem auto;        /* IMMER zentriert */
+  padding: 1.5rem;
   background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.14);
 }
 
-/* Inner video elements */
+/* YouTube + Video immer mittig & 16:9 */
 .media-card iframe,
 .media-card video {
   display: block;
   width: 100%;
-  height: auto;
-  border-radius: 12px;
+  aspect-ratio: 16 / 9;     /* automatisch richtige Höhe */
+  border-radius: 14px;
 }
 
-/* Optional caption under video */
-.media-card .media-caption {
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-  color: rgba(0, 0, 0, 0.6);
+/* Optional: Caption */
+.media-caption {
+  margin-top: 0.9rem;
   text-align: center;
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.65);
 }
-
 
 /* =========================
-   Center all headings
+   Section headings only
    ========================= */
 
+/* Standard: Überschriften NICHT zentriert */
 .main-content h1,
 .main-content h2,
 .main-content h3 {
+  text-align: left;
+}
+
+/* Seitentitel (H1) immer zentriert */
+.main-content h1 {
   text-align: center;
 }
 
-/* Spacing tuning so it doesn't feel awkward */
-.main-content h2 {
-  margin-top: 2.5rem;
-  margin-bottom: 1.25rem;
+/* NUR Abschnittsüberschriften:
+   h2 direkt nach einer Trennlinie */
+.main-content hr + h2 {
+  text-align: center;
 }
 
-.main-content h3 {
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+/* Spacing für Abschnittsüberschriften */
+.main-content hr + h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
+
 
 
