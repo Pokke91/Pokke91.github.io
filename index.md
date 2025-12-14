@@ -3,61 +3,32 @@ layout: default
 title: Willkommen auf der GitHub Page von Fabian Brandt
 ---
 
-<div class="kb-hero">
-  <h2>Power Platform Knowledge Base</h2>
-  <p>
-    Learnings und kleine „so hab ich’s gelöst“-Artikel zur <strong>Power Platform</strong>
-  </p>
+# Fabian Brandt
 
-  <div class="kb-actions">
-    <a class="kb-btn" href="power-apps.md">⚡ Power Apps</a>
-    <a class="kb-btn" href="dataverse.md">🗂️ Dataverse</a>
-    <a class="kb-btn" href="power-automate.md">🔁 Power Automate</a>
-    <a class="kb-btn" href="about.md">👋 About</a>
-  </div>
-</div>
+Ich arbeite mit der **Microsoft Power Platform** und entwickle praxisnahe Lösungen rund um  
+**Power Apps, Dataverse und Power Automate**.
 
-<div class="kb-grid">
-  <div class="kb-card kb-card--4">
-    <h3>Neueste Artikel</h3>
-    <p class="kb-meta">Hier kannst du bald deine neuesten Posts verlinken.</p>
-    <ul>
-      <li><a href="#">Coming soon</a></li>
-      <li><a href="#">Coming soon</a></li>
-    </ul>
-  </div>
+Mein Fokus liegt auf:
+- sauberen, wartbaren Power-Apps-Lösungen
+- strukturierten Dataverse-Modellen
+- pragmatischen Workarounds aus der Praxis
 
-  <div class="kb-card kb-card--4">
-    <h3>Patterns</h3>
-    <p class="kb-meta">Wiederverwendbare Lösungen & Best Practices.</p>
-    <ul>
-      <li><a href="#">Error Handling</a></li>
-      <li><a href="#">Performance Tipps</a></li>
-    </ul>
-  </div>
+🔗 **LinkedIn:**  
+[https://www.linkedin.com/in/fabian-brandt-2b1a36100](https://www.linkedin.com/in/fabian-brandt-2b1a36100/)
 
-  <div class="kb-card kb-card--4">
-    <h3>Snippets</h3>
-    <p class="kb-meta">Kleine Codes/Expressions zum Copy & Paste.</p>
-    <ul>
-      <li><a href="#">Power Fx</a></li>
-      <li><a href="#">OData / Dataverse</a></li>
-    </ul>
-  </div>
+---
 
-  <div class="kb-card kb-card--6">
-    <h3>Was du hier findest</h3>
-    <p class="kb-meta">
-      Fokus auf praxisnahe Beispiele – kurz, nachvollziehbar, reproduzierbar.
-      Ideal, wenn du beim Bauen über reale Probleme stolperst.
-    </p>
-  </div>
+## Solutions
 
-  <div class="kb-card kb-card--6">
-    <h3>Wie du navigierst</h3>
-    <p class="kb-meta">
-      Nutze die Buttons oben oder starte bei einem Bereich (Power Apps / Dataverse / Automate).
-      Später können wir Kategorien, Suche und ein richtiges Blog hinzufügen.
-    </p>
-  </div>
-</div>
+Hier findest du ausgewählte Lösungen und Umsetzungen aus meiner Arbeit.  
+Jede Solution ist kurz dokumentiert und mit dem jeweiligen LinkedIn-Post verknüpft.
+
+### 📌 Personal Planner in Power Apps
+- **Beschreibung:** Drag & Drop von Tasks in Kalender-Zonen in Power Apps
+- 👉 Doku: [Zur Solution-Seite](solutions/PersonalPlanner.md)
+- 🔗 LinkedIn: [https://www.linkedin.com/post](https://www.linkedin.com/posts/fabian-brandt-2b1a36100_poweratelier-powerplatform-lowcode-activity-7405567835789344770-tHUX?utm_source=share&utm_medium=member_desktop&rcm=ACoAABnIFSUBwg1H85oHDYUpNlPqTEvHYCxYOCA)]
+
+### 📌 Centralized Catalog Item Deployer for Multi-Environment Rollouts
+- **Beschreibung:** Kurzbeschreibung
+- 👉 Doku: [Zur Solution-Seite](solutions/EnterpriseCatalog.md)
+- 🔗 LinkedIn: [https://www.linkedin.com/posts/](https://www.linkedin.com/pulse/centralized-catalog-item-deployer-multi-environment-rollouts-brandt-2ykpe/?trackingId=%2B1A298ep%2Bi5mQB7cWZsEbw%3D%3D)
