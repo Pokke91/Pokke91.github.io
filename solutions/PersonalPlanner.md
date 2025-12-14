@@ -69,6 +69,10 @@ Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
 
 ---
 
-## Screenshots / Demo
-> Platzhalter: Hier kannst du später Screenshots, GIFs oder ein kurzes Demo-Video einfügen.
+## Screenshots / DemoVideo
+
+<video controls playsinline preload="metadata" width="100%">
+  <source src="videos/LinkedIn Personal Planner.mp4" type="video/mp4">
+</video>
+
 
