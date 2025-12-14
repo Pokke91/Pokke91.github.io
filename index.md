@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Willkommen auf meiner GitHub Page
+title: Willkommen auf der GitHub Page von Fabian Brandt
 ---
 
 <div class="kb-hero">
   <h2>Power Platform Knowledge Base</h2>
   <p>
-    Patterns, Learnings und kleine „so hab ich’s gelöst“-Artikel zu <strong>Power Apps</strong>,
-    <strong>Dataverse</strong> und <strong>Power Automate</strong>.
+    Learnings und kleine „so hab ich’s gelöst“-Artikel zur <strong>Power Platform</strong>
   </p>
 
   <div class="kb-actions">
