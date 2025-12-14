@@ -51,7 +51,7 @@ Alle Planungsdaten werden vollständig in **Dataverse** gespeichert – als stab
 
 ### PCF für Drag & Drop
 Für Drag & Drop wird eine **PCF-Komponente** genutzt (by Scott Durow).  
-**-->>** https://github.com/scottdurow/power-drag-drop
+**-->>** [Link](https://github.com/scottdurow/power-drag-drop)
 Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
 
 ---
