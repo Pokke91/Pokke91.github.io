@@ -71,15 +71,7 @@ Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
 
 ## Screenshots / DemoVideo
 
-<iframe
-  width="100%"
-  height="420"
-  src="[https://www.youtube.com/embed/rMFdvyLX-g](https://youtu.be/k62D1nBSUFs)Y"
-  title="Personal Planner – Power Apps Demo"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-</iframe>
+<iframe width="1840" height="1035" src="https://www.youtube.com/embed/k62D1nBSUFs" title="Power Apps Personal Planner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
