@@ -3,58 +3,57 @@ layout: default
 title: About
 ---
 
-# Über mich
+## About Me
 
-Ich bin **Fabian Brandt**, ein
-Power Platform-Experte mit Fokus auf moderne Low-Code-Entwicklung.  
-Der Schwerpunkt meiner Arbeit liegt in der Konzeption, Entwicklung und Betreuung von Lösungen auf Basis von **Power Apps**, **Power Automate** und dem **Microsoft Dataverse**.
+My name is **Fabian Brandt**, and I am a **Power Platform expert** with a strong focus on modern **low-code development**.  
+My work primarily revolves around the design, development, and maintenance of solutions built with **Power Apps**, **Power Automate**, and **Microsoft Dataverse**.
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/fabian-brandt-2b1a36100 
-
----
-
-## Berufliche Erfahrung
-
-Ich arbeite seit mittlerweile 3 Jahren als Power Platform Admin und Developer.
-Dort konzipiere und entwickle ich Lösungen für die Praxis, gestalte automatisierte Prozesse und unterstütze interne Anwender sowie Citizen Developer bei technischen Herausforderungen. 
-
-Zuvor hatte ich dort mehrere Rollen inne, die mir ein breites technisches und organisatorisches Fundament gegeben haben, darunter Aufgaben in der Fertigungssteuerung, Projektkoordination und Prozessoptimierung.
+🔗 **LinkedIn:**  
+[LinkedIn-Profile](https://www.linkedin.com/in/fabian-brandt-2b1a36100)
 
 ---
 
-## Fähigkeiten & Schwerpunkte
+## Professional Experience
 
-Ich bringe Erfahrung in folgenden Bereichen mit:
+I have been working for over **three years** as a **Power Platform Administrator and Developer**.  
+In this role, I design and implement practical solutions, create automated processes, and support internal users as well as citizen developers with technical challenges.
 
-- **Microsoft Power Platform** (Power Apps, Power Automate, Dataverse)  
-- **Low-Code/No-Code-Entwicklung**  
-- Prozessautomatisierung und Workflow-Design  
-- Anwender- und Entwicklerberatung  
-- Datenmodellierung und App-Architektur  
-- Citizen Developer Enablement
+Previously, I held several roles that provided me with a broad technical and organizational foundation, including responsibilities in production planning, project coordination, and process optimization.
 
 ---
 
-## Ausbildung
+## Skills & Focus Areas
 
-Neben meinem beruflichen Werdegang habe ich unter anderem eine Ausbildung und Qualifizierung im Bereich technischer Betriebswirtschaft absolviert – ergänzt um fundierte praktische Erfahrung in diversen Industriebereichen.
+I have hands-on experience in the following areas:
 
----
-
-## Was mich antreibt
-
-Ich baue Lösungen, die:
-- **Menschen in ihrer Arbeit entlasten**
-- **Prozesse transparenter machen**
-- **nachhaltig skaliert werden können**
-
-Mein Fokus ist immer auf **praktischer Nutzbarkeit**, **Wartbarkeit** und echter **Alltagsrelevanz** für Nutzer.
+- Microsoft Power Platform (Power Apps, Power Automate, Dataverse)
+- Low-code / no-code development
+- Process automation and workflow design
+- User and developer support
+- Data modeling and app architecture
+- Citizen developer enablement
 
 ---
 
-## Kontakt
+## Education
 
-Du findest mich am besten über LinkedIn:  
-🔗 https://www.linkedin.com/in/fabian-brandt-2b1a36100
+Alongside my professional career, I completed training and qualifications in **technical business administration**, complemented by solid practical experience across various industrial domains.
 
-Oder direkt hier auf meiner Knowledge-Base, wo ich Lösungsbeispiele und Insights teile.
+---
+
+## What Drives Me
+
+I build solutions that:
+- reduce manual effort and simplify daily work
+- make processes more transparent
+- scale sustainably over time
+
+My focus is always on **practical usability**, **maintainability**, and real **day-to-day value** for users.
+
+---
+
+## Contact
+
+The best way to reach me is via LinkedIn:  
+🔗 [LinkedIn-Profile](https://www.linkedin.com/in/fabian-brandt-2b1a36100)
+
