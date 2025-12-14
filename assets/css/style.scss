@@ -251,3 +251,26 @@
   text-align: center;
 }
 
+
+/* =========================
+   Center all headings
+   ========================= */
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  text-align: center;
+}
+
+/* Spacing tuning so it doesn't feel awkward */
+.main-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.main-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+
