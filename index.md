@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start
+title: Willkommen auf meiner GitHub Page
 ---
 
 <div class="kb-hero">
