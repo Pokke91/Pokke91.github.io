@@ -97,3 +97,127 @@
   .kb-card--4 { grid-column: span 4; }
   .kb-card--6 { grid-column: span 6; }
 }
+
+
+/* =========================
+   Layout & Typography polish
+   ========================= */
+
+/* Center the content container (Cayman is often a bit "left anchored") */
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px; /* default readable width */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* Slightly larger max width on very wide screens */
+@media (min-width: 1200px) {
+  .main-content {
+    max-width: 1040px;
+  }
+}
+
+/* Keep text readable */
+.main-content p,
+.main-content li {
+  line-height: 1.65;
+}
+
+/* Headings spacing & hierarchy */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  line-height: 1.2;
+  scroll-margin-top: 90px; /* nice when you later add anchor links */
+}
+
+.main-content h1 {
+  text-align: center; /* makes pages feel more "website" */
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.main-content h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.main-content h3 {
+  margin-top: 1.5rem;
+}
+
+/* Nice separators / sections */
+.main-content hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 2rem 0;
+}
+
+/* Links feel more modern and easier to scan */
+.main-content a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Lists: better spacing */
+.main-content ul,
+.main-content ol {
+  padding-left: 1.25rem;
+}
+
+.main-content li + li {
+  margin-top: 0.35rem;
+}
+
+/* Images: centered, responsive, with soft corners */
+.main-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Video/iframe embeds: centered and not too wide */
+.main-content iframe,
+.main-content video {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  margin: 1rem auto 1.5rem;
+  border-radius: 12px;
+}
+
+/* Give embedded iframes a subtle shadow (YouTube feels integrated) */
+.main-content iframe {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* Blockquotes: nicer callouts */
+.main-content blockquote {
+  border-left: 4px solid rgba(0, 0, 0, 0.18);
+  background: rgba(0, 0, 0, 0.03);
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+}
+
+/* Code blocks: less harsh */
+.main-content pre {
+  border-radius: 12px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+/* Tables: if you ever use them, make them responsive */
+.main-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
