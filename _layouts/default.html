@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </header>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <div class="nav-bar">
+        <a class="nav-link" href="{{ "/" | relative_url }}">Home</a>
+        <a class="nav-link" href="{{ "/about" | relative_url }}">About</a>
+
+        <details class="nav-dd">
+          <summary class="nav-link">Solutions</summary>
+          <div class="nav-menu">
+            <a class="nav-item" href="{{ "/solutions/personal-planner" | relative_url }}">Personal Planner</a>
+            <!-- weitere Solutions hier -->
+          </div>
+        </details>
+
+        <a class="nav-link" href="https://www.linkedin.com/in/fabian-brandt-2b1a36100" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </nav>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span class="site-footer-credits">© {{ "now" | date: "%Y" }} {{ site.title }}</span>
+    </footer>
+  </body>
+</html>
