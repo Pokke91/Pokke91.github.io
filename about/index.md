@@ -6,19 +6,19 @@ title: About
 # Über mich
 
 Ich bin **Fabian Brandt**, ein
-Microsoft-Experte mit Fokus auf der **Power Platform** sowie moderner Low-Code-Entwicklung.  
+Power Platform-Experte mit Fokus auf moderne Low-Code-Entwicklung.  
 Der Schwerpunkt meiner Arbeit liegt in der Konzeption, Entwicklung und Betreuung von Lösungen auf Basis von **Power Apps**, **Power Automate** und dem **Microsoft Dataverse**.
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/fabian-brandt-2b1a36100 :contentReference[oaicite:1]{index=1}
+🔗 **LinkedIn:** https://www.linkedin.com/in/fabian-brandt-2b1a36100 
 
 ---
 
 ## Berufliche Erfahrung
 
-Ich arbeite aktuell als **Microsoft 365 Experte und Power Platform Administrator** bei der **Windmöller & Hölscher Gruppe**.  
-Dort konzipiere und entwickle ich Lösungen für die Praxis, gestalte automatisierte Prozesse und unterstütze interne Anwender sowie Citizen Developer bei technischen Herausforderungen. :contentReference[oaicite:2]{index=2}
+Ich arbeite seit mittlerweile 3 Jahren als Power Platform Admin und Developer.
+Dort konzipiere und entwickle ich Lösungen für die Praxis, gestalte automatisierte Prozesse und unterstütze interne Anwender sowie Citizen Developer bei technischen Herausforderungen. 
 
-Zuvor hatte ich dort mehrere Rollen inne, die mir ein breites technisches und organisatorisches Fundament gegeben haben, darunter Aufgaben in der Fertigungssteuerung, Projektkoordination und Prozessoptimierung. :contentReference[oaicite:3]{index=3}
+Zuvor hatte ich dort mehrere Rollen inne, die mir ein breites technisches und organisatorisches Fundament gegeben haben, darunter Aufgaben in der Fertigungssteuerung, Projektkoordination und Prozessoptimierung.
 
 ---
 
@@ -37,7 +37,7 @@ Ich bringe Erfahrung in folgenden Bereichen mit:
 
 ## Ausbildung
 
-Neben meinem beruflichen Werdegang habe ich unter anderem eine Ausbildung und Qualifizierung im Bereich technischer Betriebswirtschaft absolviert – ergänzt um fundierte praktische Erfahrung in diversen Industriebereichen. :contentReference[oaicite:4]{index=4}
+Neben meinem beruflichen Werdegang habe ich unter anderem eine Ausbildung und Qualifizierung im Bereich technischer Betriebswirtschaft absolviert – ergänzt um fundierte praktische Erfahrung in diversen Industriebereichen.
 
 ---
 
