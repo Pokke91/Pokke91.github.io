@@ -3,75 +3,76 @@ layout: default
 title: Personal Planner (Power Apps)
 ---
 
-
 # Personal Planner (Power Apps)
 
-Ein persönlicher Planner in **Power Apps**, der die **Mitarbeiter-Planung** einfach und effizient macht.  
-Planung von **Tasks, Orders und Vacation** pro Mitarbeiter – vollständig in **Dataverse** gespeichert.
+A personal planner built with **Power Apps** to make **employee planning** simple and efficient.  
+Planning of **tasks, orders, and vacation** per employee – fully stored in **Dataverse**.
 
-**LinkedIn-Post:**  
-https://www.linkedin.com/posts/fabian-brandt-2b1a36100_poweratelier-powerplatform-lowcode-activity-7405567835789344770-tHUX
+🔗 **LinkedIn post:**  
+[Link](https://www.linkedin.com/posts/fabian-brandt-2b1a36100_poweratelier-powerplatform-lowcode-activity-7405567835789344770-tHUX)
 
 ---
 
-## Problem / Ziel
+## Problem / Goal
 
-Ziel war es, **Daily Planning** in Power Apps praxisnäher und benutzerfreundlicher zu machen:
-- schnelle Umplanung im Alltag
-- Verschieben von Zuweisungen über Mitarbeiter hinweg
-- fein granular pro Tag anpassbar
+The goal was to make **daily planning** in Power Apps more practical and user-friendly:
+- fast rescheduling in day-to-day operations
+- moving assignments between employees
+- fine-grained adjustments on a per-day basis
 
 ---
 
 ## Key Features
 
-### Drag & Drop Planung
-- Planung per **Drag & Drop** über wiederverwendbare Templates
-- Items können zwischen Mitarbeitern verschoben werden oder auf Tagesebene angepasst werden
+### Drag & Drop Planning
+- Planning via **drag & drop** using reusable templates
+- Items can be moved between employees or adjusted on a daily level
 
-### Optional: Click-to-move
-Für schnelle Änderungen:
-1. Planning-Item auswählen
-2. Ziel-Tag im Kalender anklicken
-3. Item wird dorthin verschoben
+### Optional: Click-to-Move
+For quick changes:
+1. Select a planning item
+2. Click the target day in the calendar
+3. The item is moved to the selected date
 
-### Layout komplett konfigurierbar
+### Fully Configurable Layout
 - Row height
 - Column width
 - Pagination
 - Date range
-- Defaults: Start ab „heute“
+- Defaults (e.g. start from “today”)
 
 ---
 
-## Daten & Architektur
+## Data & Architecture
 
-### Dataverse als Basis
-Alle Planungsdaten werden vollständig in **Dataverse** gespeichert – als stabile, skalierbare Grundlage (z. B. später für Power BI).
+### Dataverse as the Foundation
+All planning data is fully stored in **Dataverse**, providing a stable and scalable foundation  
+(e.g. for future **Power BI** reporting).
 
-### PCF für Drag & Drop
-Für Drag & Drop wird eine **PCF-Komponente** genutzt (by Scott Durow).  
-**-->>** [Link](https://github.com/scottdurow/power-drag-drop)
-Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
+### PCF for Drag & Drop
+A **PCF component** is used for drag & drop (by Scott Durow).  
+➡️ [Link](https://github.com/scottdurow/power-drag-drop)
 
----
-
-## Ergebnis / Learnings
-
-- Umsetzung in **4 Tagen**
-- Fokus auf Klarheit, Kontrolle und echte Anforderungen
-- Vergleich: Versuch mit vibe.powerapps.com / generierten Pages führte nach mehreren Stunden nicht zu einem nutzbaren Ergebnis
+The planner logic, data model, and UI behavior are **custom-built**.
 
 ---
 
-## Roadmap / Ideen
-- Power BI Dashboard (auf Basis der Dataverse-Daten)
-- UX-Feinschliff (Keyboard, Shortcuts, schnellere Bulk-Aktionen)
-- Validierungen (Konflikte, Kapazitäten, Abhängigkeiten)
+## Results / Learnings
+
+- Implemented in **4 days**
+- Strong focus on clarity, control, and real user requirements
+- Comparison: attempts using vibe.powerapps.com / generated pages did not result in a usable solution even after several hours
 
 ---
 
-## Screenshots / DemoVideo
+## Roadmap / Ideas
+- Power BI dashboard based on Dataverse data
+- UX refinements (keyboard support, shortcuts, faster bulk actions)
+- Validations (conflicts, capacities, dependencies)
+
+---
+
+## Screenshots / Demo Video
 
 <div class="media-card">
   <iframe
@@ -86,7 +87,3 @@ Planner-Logik, Datenmodell und UI-Verhalten sind **custom-built**.
     Demo – Personal Planner in Power Apps
   </div>
 </div>
-
-
-
-
